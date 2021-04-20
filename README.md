@@ -9,3 +9,23 @@ The motivation of this project is the recent incident happened on Reddit website
 
 ## Contributors
 Aruna Bisht, Billy Scolinos, and Aye Oo were the main contributer for this project. 
+
+## Data sets 
+- Reddit website
+- Nasdaq stocks
+- Yahoo API
+
+## Tools and Modules 
+- Python
+- Pandas
+- Matplotlib
+- NumPy
+- SciPy
+- Tensorflow
+- Scikit-Learn
+- yfinance
+- Sentiment analysis
+- Bag of words
+- Flask
+- AWS
+- Google Colab
