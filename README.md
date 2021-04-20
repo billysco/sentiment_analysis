@@ -8,7 +8,7 @@ Financial market accurately reflects the stocks underlying value. However, time 
 The motivation of this project is the recent incident happened on Reddit website in Jan 2021. This project objective is to leverage people’s emotion to make informed decisions to buy and sell stocks.
 
 ## Contributors
-Aruna Bisht, Billy Scolinos, and Aye Oo were the main contributer for this project. 
+Aruna Bisht, Billy Scolinos, and Aye Oo were the main contributors for this project. 
 
 ## Data sets 
 - Reddit website
