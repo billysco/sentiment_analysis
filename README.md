@@ -2,7 +2,7 @@
 ![image](https://user-images.githubusercontent.com/75597926/115327626-1c534780-a144-11eb-9c73-4b5e82ac6267.jpeg)
 
 ## Background
-Financial market accurately reflects the stocks underlying value. However, time and again historically it’s proven that in addition to this, emotions also drive the stock market. Investors can fundamentally change a market’s course through irrational decisions. Example recent Jan 2021 Reddit incident regarding stocks, where investors followed a Redditt group (r/Wallstreetbets) and bought tons of stocks eg. Gamestock. Hence increasing it’s stock price from going bankrupt  to upto 3 fold ie. 134%. Those stock prices rose purely based on emotions. This project is an effort to analyze and rank stocks of Reddit website based upon emotions, controversies and social media influences.
+The financial markets supposedly accurately reflect each stock's underlying value. However, every now and then it’s proven that emotions also drive the stock market. Investors can fundamentally change the market’s evaluation of a stock (or stocks) through irrational decisions. One example of this occurred in January 2021 when Reddit users started to generate large amounts of positive sentiment around 'meme stocks' such as Gamestop and AMC. Thsi resulted in massive stock price increases such as GME going from single digits to almost $500. Those stock prices rose purely based on emotion and wild speculation. This project is an effort to analyze and rank stocks from Reddit based user sentiment.
 
 ## Motivation 
 The motivation of this project is the recent incident happened on Reddit website in Jan 2021. This project objective is to leverage people’s emotion to make informed decisions to buy and sell stocks.
