@@ -75,7 +75,7 @@ Following snapshot shows the final dataframe after pulling data from both data s
 
 After analyzing data from maching leaning sentiment model, we also used algorithimic trading model. This model utilizes the simple moving average trading method. It issues a buy signal when the stock price crosses the 50 day moving average and the 50 day moving average is greater than both the 150 day and 200 day SMAs as well. The model then proceeds to sell the stock when the price dips below the 50 day SMA or when the 50 day SMA dips below the 150 or 200 day SMA. When we backtested this strategy on GME using the fastquant library, we achieved realized gains of 1,559%. 
 
-![](snapshots/Backtest.png)
+![](snapshots/Backtest.PNG)
 
 --------------------------------------------------------------------------------------------------------------------------------------------
 
