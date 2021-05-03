@@ -2,7 +2,7 @@
 
 The recent incident of Wall Street/ bet has once again proved that public sentiments play a significant role in driving the market.  One of the biggest example companies like AMC and Gamestop, who were almost on the verge of bankruptcy were turned into multi-millionaire overnight just because few investors crazily pumped money into these stocks. This is how we conceived the idea for our startup. Our start-up provide the integrated platform, which combine the real time public sentiment from websites like Reddit and stock prices from like Alpaca and then feeding that data to ML machine learning mode to quantify public sentiments in order to know which are profitable stocks. The second part of this project is to connect it to trading platform to auto-trigger trades based upon user's settings. This provide users better insight to the stocks and deeper analysis of public sentiments.
 
-![](snapshots/intro.PNG)
+![](snapshots/intro.png)
 
 ## Approach
 The project takes raw comments from the site Reddit, stock prices from Alpaca and second part is to connect it to trading platform like Robinhood to auto trade. Since the data was so huge from Reddit, so we took only those comments which has a score greater then 200, which condensed our data to more better quality.
@@ -57,40 +57,40 @@ The reddit comments are pulled through API. The stock prices are pulled from Alp
 
 Following snapshot shows the final dataframe after pulling data from both data sources and results got from two different ML model.
 
-![](snapshots/dataframe_headline.PNG)
-![](snapshots/dataframe_content.PNG)
+![](snapshots/dataframe_headline.png)
+![](snapshots/dataframe_content.png)
 
 --------------------------------------------------------------------------------------------------------------------------------------------
 
 The correlation metrics of ML results were interesting. Following were the findings (1) The result accuracy increased significantly with the increase in the score of comments. In-fact, the weigtage of positive comments increased with more scores of public comments. (2) If there was a sudden percentage change in the stock 'close' price then weigtage of negative comments was more (3) The ML results from two different libraries have a strong  positive correlation.
 
-![](snapshots/correlation.PNG)
+![](snapshots/correlation.png)
 
 --------------------------------------------------------------------------------------------------------------------------------------------
 
 Following is the snapshot of the graph plotted between the results of two ML model.
 
-![](snapshots/cross_results.PNG)
+![](snapshots/cross_results.png)
 
 --------------------------------------------------------------------------------------------------------------------------------------------
 
 Following graph shows the variation in the polarity across stocks.
 
-![](snapshots/snapshots.PNG)
+![](snapshots/snapshots.png)
 
-![](snapshots/polarity_variation.PNG)
+![](snapshots/polarity_variation.png)
 
 --------------------------------------------------------------------------------------------------------------------------------------------
 
 This is the heat map which tell better the score higher the positive sentiments % we got.
 
-![](snapshots/score.PNG)
+![](snapshots/score.png)
 
 --------------------------------------------------------------------------------------------------------------------------------------------
 
 This is the trend of positive, negative and neutral sentiments trend across stocks.
 
-![](snapshots/sentiment_trend.PNG)
+![](snapshots/sentiment_trend.png)
 
 --------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -98,43 +98,43 @@ Due to the imbalanced dataset, we found more siginificant % percentage of neutra
 
 1.Example - the capital good sector % was 23%.
 
-![](snapshots/capital_goods.PNG)
+![](snapshots/capital_goods.png)
 
 --------------------------------------------------------------------------------------------------------------------------------------------
 
 2.The consumer service sector postive sentiment % is 23.2%
 
-![](snapshots/customer_services.PNG)
+![](snapshots/customer_services.png)
 
 --------------------------------------------------------------------------------------------------------------------------------------------
 
 3.The energy sector postive sentiment % is 14.1%
 
-![](snapshots/energy.PNG)
+![](snapshots/energy.png)
 
 --------------------------------------------------------------------------------------------------------------------------------------------
 
 4.The finance sector postive sentiment % is 22.6%
 
-![](snapshots/finance.PNG)
+![](snapshots/finance.png)
 
 --------------------------------------------------------------------------------------------------------------------------------------------
 
 5.The finance sector postive sentiment % is 10.1%
 
-![](snapshots/health_care.PNG)
+![](snapshots/health_care.png)
 
 --------------------------------------------------------------------------------------------------------------------------------------------
 
 6.The finance sector postive sentiment % is 10.1%
 
-![](snapshots/public_utilities.PNG)
+![](snapshots/public_utilities.png)
 
 --------------------------------------------------------------------------------------------------------------------------------------------
 
 7.The finance sector postive sentiment % is 10.1%
 
-![](snapshots/public_utilities.PNG)
+![](snapshots/public_utilities.png)
 
 --------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -143,19 +143,19 @@ Due to the imbalanced dataset, we found more siginificant % percentage of neutra
 This is the snapshot of the professional interactive dashboard built for the users to know the sentiments for the particular stock before investing.
 This shows the list of top trend in the market as per the recent data.
 
-![](snapshots/public_sentiments.PNG)
+![](snapshots/public_sentiments.png)
 
 --------------------------------------------------------------------------------------------------------------------------------------------
 
 1. This is the snapshot of another user interface to knOw the sentiments for the particular stock before investing. 
 
-![](snapshots/for_which_stock.PNG)
+![](snapshots/for_which_stock.png)
 
 --------------------------------------------------------------------------------------------------------------------------------------------
 
 2. This snapshot shows the list of stocks which lie in the particular the range of sentiments.
 
-![](snapshots/range_of_Sentiments.PNG)
+![](snapshots/range_of_Sentiments.png)
 
 --------------------------------------------------------------------------------------------------------------------------------------------
 
