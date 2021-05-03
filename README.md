@@ -65,14 +65,17 @@ To install PyViz and its dependencies in your Conda dev environment, complete th
 
 ## Usage
 
-The reddit comments are pulled through API. The stock prices are pulled from Alpaca. We used multiple machine learning model on this data. The two main ML models we used was - (1) Valdmir - this is the model which is used for text sentiment analysis that is sensitive to both polarity (positive/ negative) and intensity strength of emotion. It is in the NLTP package and can directly be applied to the unlabelled data. This library relies on the dictionary that maps lexical features to emotion intensities known as sentiment score. (2) Text blot - In this library sentiments are defined based on the frequency of each word in an input sentence that allows getting a more precise output as a result. The result we got was in the form polarity on the scale of -1 to 1 and subjectivity on the scale of 0 to 1.
-
-The algorithimic trading model utilizes the simple moving average trading method. It issues a buy signal when the stock price crosses the 50 day moving average and the 50 day moving average is greater than both the 150 day and 200 day SMAs as well. The model then proceeds to sell the stock when the price dips below the 50 day SMA or when the 50 day SMA dips below the 150 or 200 day SMA. When we backtested this strategy on GME using the fastquant library, we achieved realized gains of 1,559%. 
+The reddit comments are pulled through API and the stock prices are pulled from Alpaca. We used multiple machine learning model on this data. The two main ML models we used was - (1) Valdmir - this is the model which is used for text sentiment analysis that is sensitive to both polarity (positive/ negative) and intensity strength of emotion. It is in the NLTP package and can directly be applied to the unlabelled data. This library relies on the dictionary that maps lexical features to emotion intensities known as sentiment score. (2) Text blot - In this library sentiments are defined based on the frequency of each word in an input sentence that allows getting a more precise output as a result. The result we got was in the form polarity on the scale of -1 to 1 and subjectivity on the scale of 0 to 1.
 
 Following snapshot shows the final dataframe after pulling data from both data sources and results got from two different ML model.
 
 ![](snapshots/dataframe_headline.png)
 ![](snapshots/dataframe_content.png)
+
+
+After analyzing data from maching leaning sentiment model, we also used algorithimic trading model. This model utilizes the simple moving average trading method. It issues a buy signal when the stock price crosses the 50 day moving average and the 50 day moving average is greater than both the 150 day and 200 day SMAs as well. The model then proceeds to sell the stock when the price dips below the 50 day SMA or when the 50 day SMA dips below the 150 or 200 day SMA. When we backtested this strategy on GME using the fastquant library, we achieved realized gains of 1,559%. 
+
+![](snapshots/Backtest.png)
 
 --------------------------------------------------------------------------------------------------------------------------------------------
 
