@@ -7,6 +7,11 @@ The recent incident of Wall Street/ bet has once again proved that public sentim
 ## Approach
 The project takes raw comments from the site Reddit, stock prices from Alpaca and second part is to connect it to trading platform like Robinhood to auto trade. Since the data was so huge from Reddit, so we took only those comments which has a score greater then 200, which condensed our data to more better quality.
 
+## Data sets 
+- Reddit website
+- Nasdaq stocks
+- Y Finance
+
 ## Technologies
 
 This project leverages python 3.7 with the following packages:
@@ -20,6 +25,11 @@ This project leverages python 3.7 with the following packages:
 * [Pyviz](https://pyviz.org/) - Python visualization package that provides a single platform for accessing multiple visualization libraries. Two of these libraries are Plotly Express and hvPlot, which were used in this project
 
 * [Flask](https://flask.palletsprojects.com/en/1.1.x/) - A Python library which allows you to build a web application
+
+* For Sentiment analysis  - Textblot and Vader libraries
+* For Visualizations - Matplotlid, SciPy ,Tensorflow , Scikit-Learn libraries
+* IDE - Visual studio, Jupyter lab, Google Colab
+
 
 
 ---
