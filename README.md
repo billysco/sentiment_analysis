@@ -1,4 +1,5 @@
-# sentiment_analysis
+# SSentiment Analyzer
+
 ![image](https://user-images.githubusercontent.com/75597926/115327626-1c534780-a144-11eb-9c73-4b5e82ac6267.jpeg)
 ------------------------------------------------------------------
 
