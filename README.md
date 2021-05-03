@@ -1,10 +1,5 @@
 # Sentiment Analyzer
 
-![image](https://user-images.githubusercontent.com/75597926/115327626-1c534780-a144-11eb-9c73-4b5e82ac6267.jpeg)
-------------------------------------------------------------------
-
-# Sentiment Analyzer
-
 The recent incident of Wall Street/ bet has once again proved that public sentiments play a significant role in driving the market.  One of the biggest example companies like AMC and Gamestop, who were almost on the verge of bankruptcy were turned into multi-millionaire overnight just because few investors crazily pumped money into these stocks. This is how we conceived the idea for our startup. Our start-up provide the integrated platform, which combine the real time public sentiment from websites like Reddit and stock prices from like Alpaca and then feeding that data to ML machine learning mode to quantify public sentiments in order to know which are profitable stocks. The second part of this project is to connect it to trading platform to auto-trigger trades based upon user's settings. This provide users better insight to the stocks and deeper analysis of public sentiments.
 
 ![](snapshots/intro.PNG)
@@ -12,12 +7,7 @@ The recent incident of Wall Street/ bet has once again proved that public sentim
 ## Approach
 The project takes raw comments from the site Reddit, stock prices from Alpaca and second part is to connect it to trading platform like Robinhood to auto trade. Since the data was so huge from Reddit, so we took only those comments which has a score greater then 200, which condensed our data to more better quality.
 
-## Data sets 
-- Reddit website
-- Nasdaq stocks
-- Y Finance
-
-## Technologies, Tools and Modules 
+## Technologies
 
 This project leverages python 3.7 with the following packages:
 
@@ -31,9 +21,8 @@ This project leverages python 3.7 with the following packages:
 
 * [Flask](https://flask.palletsprojects.com/en/1.1.x/) - A Python library which allows you to build a web application
 
-* For Sentiment analysis  - Textblot and Vader libraries
-* For Visualizations - Matplotlid, SciPy ,Tensorflow , Scikit-Learn libraries
-* IDE - Visual studio, Jupyter lab, Google Colab
+
+---
 
 ## Installation Guide
 
@@ -65,8 +54,6 @@ To install PyViz and its dependencies in your Conda dev environment, complete th
 ## Usage
 
 The reddit comments are pulled through API. The stock prices are pulled from Alpaca. We used multiple machine learning model on this data. The two main ML models we used was - (1) Valdmir - this is the model which is used for text sentiment analysis that is sensitive to both polarity (positive/ negative) and intensity strength of emotion. It is in the NLTP package and can directly be applied to the unlabelled data. This library relies on the dictionary that maps lexical features to emotion intensities known as sentiment score. (2) Text blot - In this library sentiments are defined based on the frequency of each word in an input sentence that allows getting a more precise output as a result. The result we got was in the form polarity on the scale of -1 to 1 and subjectivity on the scale of 0 to 1.
-
-The algorithimic trading model utilizes the simple moving average trading method. It issues a buy signal when the stock price crosses the 50 day moving average and the 50 day moving average is greater than both the 150 day and 200 day SMAs as well. The model then proceeds to sell the stock when the price dips below the 50 day SMA or when the 50 day SMA dips below the 150 or 200 day SMA. When we backtested this strategy on GME using the fastquant library, we achieved realized gains of 1,559%. 
 
 Following snapshot shows the final dataframe after pulling data from both data sources and results got from two different ML model.
 
@@ -177,5 +164,3 @@ This shows the list of top trend in the market as per the recent data.
 ## Contributors
 
 Brought to you by Aruna, Billy, Aye
-
-.
