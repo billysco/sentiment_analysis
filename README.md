@@ -1,6 +1,8 @@
 # Sentiment Analyzer
 
-The recent incident of Wall Street/ bet has once again proved that public sentiments play a significant role in driving the market.  One of the biggest example companies like AMC and Gamestop, who were almost on the verge of bankruptcy were turned into multi-millionaire overnight just because few investors crazily pumped money into these stocks. This is how we conceived the idea for our startup. Our start-up provide the integrated platform, which combine the real time public sentiment from websites like Reddit and stock prices from like Alpaca and then feeding that data to ML machine learning mode to quantify public sentiments in order to know which are profitable stocks. The second part of this project is to connect it to trading platform to auto-trigger trades based upon user's settings. This provide users better insight to the stocks and deeper analysis of public sentiments.
+The recent incident of Wall Street/ bet has once again proved that public sentiments play a significant role in driving the market.  One of the biggest example companies like AMC and Gamestop, who were almost on the verge of bankruptcy were turned into multi-millionaire overnight just because few investors crazily pumped money into these stocks.
+
+This is how we conceived the idea for our startup. Our start-up provide the integrated platform, which combine the real time public sentiment from websites like Reddit and stock prices from like Alpaca and then feeding that data to ML machine learning mode to quantify public sentiments in order to know which are profitable stocks. The second part of this project is to connect it to trading platform to auto-trigger trades based upon user's settings. This provide users better insight to the stocks and deeper analysis of public sentiments.
 
 ![](snapshots/intro.png)
 
