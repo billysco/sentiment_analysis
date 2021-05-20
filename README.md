@@ -28,8 +28,8 @@ This project leverages python 3.7 with the following packages:
 
 * [Flask](https://flask.palletsprojects.com/en/1.1.x/) - A Python library which allows you to build a web application
 
-* For Sentiment analysis  - Textblot and Vader libraries
-* For Visualizations - Matplotlid, SciPy ,Tensorflow , Scikit-Learn libraries
+* For Sentiment analysis  - Textblob and Vader libraries
+* For Visualizations - Matplotlib, SciPy ,Tensorflow , Scikit-Learn libraries
 * IDE - Visual studio, Jupyter lab, Google Colab
 
 
