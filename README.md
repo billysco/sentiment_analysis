@@ -7,7 +7,7 @@ This is how we conceived the idea for our startup. Our start-up provide the inte
 ![](snapshots/intro.png)
 
 ## Approach
-The project takes raw comments from the site Reddit, stock prices from Alpaca and second part is to connect it to trading platform like Robinhood to auto trade. Since the data was so huge from Reddit, so we took only those comments which has a score greater then 200, which condensed our data to more better quality.
+The project takes raw comments from Reddit, stock prices from yFinance and connectd it to trading platform like Robinhood to auto trade. Since the data was so huge from Reddit, so we took only those comments which has a score greater then 200, which condensed our data to more better quality.
 
 ## Data sets 
 - Reddit website
